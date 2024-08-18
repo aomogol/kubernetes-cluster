@@ -1,0 +1,77 @@
+# SSH anahtar dosyaları
+*.pem
+*.key
+*.pub
+id_rsa
+id_rsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Cloud-init kullanıcı verileri dosyası
+/var/lib/vz/snippets/user-data.yaml
+
+# Diğer hassas dosyalar
+*.crt
+*.enc
+*.p12
+*.pfx
+
+# Genel olarak gizli dosyalar
+*.env
+.env.local
+.env.*.local
+
+# Log dosyaları
+*.log
+cloud-init-*.log
+
+# Geçici dosyalar
+*.tmp
+*.swp
+*.bak
+
+# IDE ve editör dosyaları
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+venv.bak/
+
+# Kubernetes ile ilgili log dosyaları
+*.log
+
+# .env dosyası (gizli bilgiler içerir)
+.env
+
+# Geçici dosyalar
+*.tmp
+*.bak
+
+# Kubernetes konfigürasyon dosyaları
+kubeconfig.yaml
+kubeconfig*
+
+# Çalışma dizinleri
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Diğer geçici dosyalar
+*.DS_Store
